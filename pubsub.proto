@@ -17,7 +17,7 @@ message PublishResponse {
 }
 
 message SubscribeRequest {
-  string topic = 1;
+  repeated string topics = 1;
 }
 
 message Message {
